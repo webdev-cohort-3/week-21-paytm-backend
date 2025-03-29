@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log*
+vercel/output.log
+
+# Build artifacts
+dist/
+build/
+out/
+.cache/
+.next/
+.vscode/
+
+# TypeScript cache
+*.tsbuildinfo
+*.tscache
+
+# Testing
+coverage/
+.nyc_output/
+jest/
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
