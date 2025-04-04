@@ -12,7 +12,10 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
+    "@types/mongoose": "^5.11.96",
+    "cors": "^2.8.5",
     "typescript": "^5.8.2"
   },
   "dependencies": {
